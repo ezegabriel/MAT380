@@ -1,0 +1,39 @@
+Baire’s Theorem is yet another statement about the size of R. We have
+already encountered several ways to describe the sizes of infinite sets. In terms
+of cardinality, countable sets are relatively small whereas uncountable sets are
+large. We also briefly discussed the concept of “length,” or “measure,” in
+Section 3.1. Baire’s Theorem offers a third perspective. From this point of
+view, nowhere-dense sets are considered to be “thin” sets. Any set that is the
+countable union—i.e., a not very large union—of these small sets is called a
+“meager” set or a set of “first category.” A set that is not of first category is of
+“second category.” Intuitively, sets of the second category are the “fat” subsets.
+The Baire Category Theorem, as it is often called, states that R is of second
+category.
+There is a significance to the Baire Category Theorem that is difficult to
+appreciate at the moment because we are only seeing a special case of this result.
+The real numbers are an example of a complete metric space. Metric spaces are
+discussed in some detail in Section 8.2, but here is the basic idea. Given a set
+of mathematical objects such as real numbers, points in the plane or continuous
+functions defined on [0,1], a “metric” is a rule that assigns a “distance” between
+two elements in the set. In R, we have been using |x−y| as the distance between
+the real numbers x and y. The point is that if we can create a satisfactory notion
+of “distance” on these other spaces (we will need the triangle inequality to hold,
+for instance), then the concepts of convergence, Cauchy sequences, and open
+sets, for example, can be naturally transferred over. A complete metric space is
+any set with a suitably defined metric in which Cauchy sequences have limits.
+We have spent a good deal of time discussing the fact that R is a complete
+metric space whereas Q is not.
+The Baire Category Theorem in its more general form states that any complete
+metric space must be too large to be the countable union of nowhere-dense
+subsets. One particularly interesting example of a complete metric space is the
+set of continuous functions defined on the interval [0, 1]. (The distance between
+two functions f and g in this space is defined to be sup |f(x) − g(x)|, where
+x ∈ [0, 1].) Now, in this space we will see that the collection of continuous functions
+that are differentiable at even one point can be written as the countable
+union of nowhere-dense sets. Thus, a fascinating consequence of Baire’s Theorem
+in this setting is that most continuous functions do not have derivatives at
+any point. Chapter 5 concludes with a construction of one such function. This
+odd situation mirrors the roles of Q and I as subsets of R. Just as the familiar
+rational numbers constitute a minute proportion of the real line, the differentiable
+functions of calculus are exceedingly atypical of continuous functions in
+general.
